@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(183, 105, 105);
+    margin: 0;
+    overflow: hidden;
+}
+
+.follower {
+    position: absolute;
+    pointer-events: none;
+    background-size: contain;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+}
+
+.eyes {
+    position: absolute;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    display: block; /* Ensure the eyes are visible by default */
+}
